@@ -14,15 +14,15 @@ namespace CadastroSeriesMVC.Models.Lista
         {
             return new List<Genero>
             {
-                new Genero { GeneroId = 1, GeneroNome = "Acao"},
+                new Genero { GeneroId = 1, GeneroNome = "Ação"},
                 new Genero { GeneroId = 2, GeneroNome = "Aventura"},
-                new Genero { GeneroId = 3, GeneroNome = "Comedia" },
-                new Genero { GeneroId = 4, GeneroNome = "Documentario" },
+                new Genero { GeneroId = 3, GeneroNome = "Comédia" },
+                new Genero { GeneroId = 4, GeneroNome = "Documentário" },
                 new Genero { GeneroId = 5, GeneroNome = "Drama" },
                 new Genero { GeneroId = 6, GeneroNome = "Espionagem" },
                 new Genero { GeneroId = 7, GeneroNome = "Faroeste" },
                 new Genero { GeneroId = 8, GeneroNome = "Fantasia" },
-                new Genero { GeneroId = 9, GeneroNome = "Ficcao_Cientifica" },
+                new Genero { GeneroId = 9, GeneroNome = "Ficcao Científica" },
                 new Genero { GeneroId = 10, GeneroNome = "Musical" },
                 new Genero { GeneroId = 11, GeneroNome = "Romance" },
                 new Genero { GeneroId = 12, GeneroNome = "Suspense" },
