@@ -28,6 +28,15 @@ namespace CadastroSeriesMVC.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["Title"] = "Cadastro de Séries em MVC";
+            ViewData["Dev"] = "Eltierry Soares Feitosa";
+            ViewData["Email"] = "eltierry@gmail.com";
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
